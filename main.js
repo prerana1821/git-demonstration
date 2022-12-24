@@ -1,6 +1,6 @@
 
 const greetUser = (userName) => {
-    return `Hello ${userName}`
+    return `Good morning, ${userName}`
 }
 
 greetUser({ name: "Prerana" })
