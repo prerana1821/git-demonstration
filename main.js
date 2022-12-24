@@ -1,6 +1,6 @@
 
 const greetUser = (userName) => {
-    console.log('Hello' + userName);
+    return `Hello ${userName}`
 }
 
 greetUser("Prerana")
