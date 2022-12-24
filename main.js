@@ -1,6 +1,6 @@
 
-const greetUser = (userName) => {
-    return `Good morning, ${userName}`
+const greetUser = (user) => {
+    return `Good morning, ${user.name}`
 }
 
 greetUser({ name: "Prerana" })
