@@ -4,3 +4,9 @@ const greetUser = (user) => {
 }
 
 greetUser({ name: "Prerana" })
+
+const logFullName = (firstName, lastName) => {
+    return `${firstName} ${lastName}`
+}
+
+logFullName("Prerana", "Nawar")
